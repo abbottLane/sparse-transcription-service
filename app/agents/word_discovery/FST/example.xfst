@@ -1,0 +1,7 @@
+define Lexicon [c a t | d o g | h o r s e];
+define wspace [..] (->) " " || _;
+define Limit [" " | "\t" | .#. ] ;
+
+#regex  [[ "-":? ]* [ 0:Limit] [Lexicon .o. wspace].l [0:Limit] [ "-":? ]*];
+
+regex [[ 0:? ]* [Lexicon .o. wspace].l [ 0:? ]*];

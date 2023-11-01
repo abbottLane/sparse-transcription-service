@@ -1,0 +1,7 @@
+*__pycache__/
+venv/
+alloenv/
+app/database/*
+mediastore-dev/
+.vscode
+uvienv-dev.conf

@@ -1,0 +1,7 @@
+fastapi[all]==0.63.0
+python-multipart
+motor==2.2.0
+pydub
+# segmentation agent reqs
+git+https://github.com/amsehili/auditok
+rx==3.1
