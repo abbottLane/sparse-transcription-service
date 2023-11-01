@@ -5,3 +5,4 @@ pydub
 # segmentation agent reqs
 git+https://github.com/amsehili/auditok
 rx==3.1
+pydantic==1.8.2

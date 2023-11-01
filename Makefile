@@ -1,7 +1,7 @@
 venv: venv/touchfile alloenv/touchfile
 
 venv/touchfile: requirements.txt
-	test -d venv || virtualenv -p python3.8 venv
+	test -d venv || virtualenv -p python3.9 venv
 	. venv/bin/activate; pip install --upgrade pip
 	. venv/bin/activate; pip install -Ur requirements.txt
 	touch venv/touchfile
